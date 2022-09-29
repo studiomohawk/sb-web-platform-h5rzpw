@@ -1,15 +1,22 @@
 .c-expandable-section-with-action {
   --background-color: #e7ebee;
-  --clearance-callout-action: clamp(16px, 68.4vw, 24px);
-  --clearance-button: 20px;
-  --layout-change-size: 68.4%;
+  --clearance-between-callout-action: 24px;
+  --clearance-between-callout-action-large: 16px;
+  --clearance-between-button: 20px;
+  --layout-change-size: 70.2%;
 
   background-color: var(--background-color);
   display: flex;
   flex-wrap: wrap;
-  gap: var(--clearance-callout-action);
+  gap: var(--clearance-between-callout-action);
   padding: 24px;
   border-radius: 3px;
+}
+
+@media only screen and (min-width : 600px) {
+  .c-expandable-section-with-action {
+    gap: var(--clearance-between-callout-action-large);
+  }
 }
 
 .c-expandable-section-with-action + .c-expandable-section-with-action {
@@ -37,7 +44,7 @@
 .c-expandable-section-with-action__button-group {
   display: flex;
   justify-content: space-between;
-  gap: var(--clearance-callout-action);
+  gap: var(--clearance-between-button);
 }
 
 .c-expandable-section-with-action__button-group > * {
