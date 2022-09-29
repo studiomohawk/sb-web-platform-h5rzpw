@@ -1,0 +1,42 @@
+/* RESET */
+.c-button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* DISPLAY */
+.c-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+
+  text-align: center;
+  line-height: 1.1;
+  border-radius: 3px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #1E5E95;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.c-button--large {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.c-button--secondary {
+  border: 1px solid #1E5E95;
+  background-color: #FFFFFF;
+}
+
+.c-button--text {
+  font-size: 13px;
+  font-weight: normal;
+  padding-right: 0;
+  padding-left: 0;
+}

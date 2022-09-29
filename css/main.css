@@ -1,4 +1,5 @@
 @import "tokens/_color.css";
 @import "tokens/_typography.css";
 @import "roots/_element.css";
+@import "components/_button.css";
 @import "tools/_visually-hidden.css";
