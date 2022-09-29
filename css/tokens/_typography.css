@@ -1,0 +1,26 @@
+:root {
+  --type-base-font-size: 18px;
+  --type-base-line-height: 1.5;
+  --type-ratio-minor-second: 1.067;
+  --type-ratio-major-second: 1.125;
+  --type-ratio-minor-third: 1.2;
+  --type-ratio-major-third: 1.25;
+  --type-ratio-perfect-fourth: 1.333;
+  --type-ratio-augumented-fourth: 1.414;
+  --type-ratio-perfect-fifth: 1.5;
+  --type-ratio-golden-ratio: 1.618;
+  --type-ratio-major-sixth: 1.667;
+  --type-ratio-minor-seventh: 1.778;
+  --type-ratio-major-seventh: 1.875;
+  --type-face-sans: system-ui, 'Gill Sans', 'Gill Sans MT', 'Calibri',
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --type-face-mono: 'Ubuntu Mono', 'Cascadia Mono', 'Segoe UI Mono',
+  'Roboto Mono', 'Oxygen Mono', ui-monospace, menlo, monaco,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', monospace;
+}
+
+html {
+  font-family: var(--type-face-sans);
+  font-size: 1.25em;
+  line-height: 1.5;
+}
