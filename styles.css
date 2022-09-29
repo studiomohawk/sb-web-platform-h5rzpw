@@ -1,6 +1,6 @@
 .c-expandable-section-with-action {
-  --background-color: #E7EBEE;
-  --clearance-callout-action: 24px;
+  --background-color: #e7ebee;
+  --clearance-callout-action: clamp(16px, 68.4vw, 24px);
   --clearance-button: 20px;
   --layout-change-size: 68.4%;
 
@@ -10,6 +10,10 @@
   gap: var(--clearance-callout-action);
   padding: 24px;
   border-radius: 3px;
+}
+
+.c-expandable-section-with-action + .c-expandable-section-with-action {
+  margin-top: 24px;
 }
 
 .c-expandable-section-with-action > :first-child {
